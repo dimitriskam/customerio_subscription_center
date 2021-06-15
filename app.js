@@ -229,10 +229,6 @@ app.get('/update/error', async (req,res) => {
     res.render('error')
 })
 
-app.get('/health-check', (req,res) => {
-    res.send('ok')
-})
-
 // ----- SERVER ------
 
 // Listen for requests on specified port
