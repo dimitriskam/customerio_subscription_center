@@ -236,6 +236,6 @@ app.get('/health-check', (req,res) => {
 // ----- SERVER ------
 
 // Listen for requests on specified port
-app.listen(3000, () => {
-    console.log(`App listening at port 300`)
+app.listen(8080, () => {
+    console.log(`App listening at port 8080`)
 })
