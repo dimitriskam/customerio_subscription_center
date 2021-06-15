@@ -141,7 +141,7 @@ app.post('/update', async (req,res) => {
     // Iterating over the attributes map entries 
     for(let [key, value] of attributes.entries()){
         // Checking that the form input field value that has the same key name as the current map key in the iterator, is not equal to undefined 
-        if (received_data[key] != undefined){
+        if ((received_data[key] != undefined) && (received_data[key] != '')){
             // Changing the checkbox field values from 'on' to 'true'
             if (value.type == 'checkbox' && received_data[key] == 'on'){
                 attributesObject[key] = 'true'
