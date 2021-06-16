@@ -12,7 +12,8 @@ module.exports =  () => {
         [ 'sub_c', {title: 'Subscription C', section: 'Marketing', type: 'checkbox'}],
         [ 'sub_d', {title: 'Subscription D', section: 'Marketing', type: 'checkbox'}],
         [ 'sub_e', {title: 'Subscription E', section: 'Web Development', type: 'checkbox'}],
-        [ 'sub_f', {title: 'Subscription F', section: 'Web Development', type: 'checkbox'}]
+        [ 'sub_f', {title: 'Subscription F', section: 'Web Development', type: 'checkbox'}],
+        [ 'sub_g', {title: 'Subscription G', section: 'New Example Section', type: 'checkbox'}]
     ]
 
     return attributes_structure
