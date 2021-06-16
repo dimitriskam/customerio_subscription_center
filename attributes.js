@@ -15,6 +15,5 @@ module.exports =  () => {
         [ 'sub_f', {title: 'Subscription F', section: 'Web Development', type: 'checkbox'}]
     ]
 
-    
     return attributes_structure
 }
