@@ -1,6 +1,6 @@
 module.exports =  () => {
 
-    // Please follow this guide => 
+    // Please follow this guide => https://www.notion.so/Documentation-04f15add8bc74d0b90734925ca88fdf4
     // to define your customer.io attribute structure below
     const attributes_structure = [
         [ 'first_name', {title: 'First Name', section: 'Personal Details', type: 'field', placeholder: 'Enter your first name'} ], 
